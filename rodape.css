@@ -6,8 +6,10 @@
 }
 
 footer {
-background-image: linear-gradient(360deg, #000000, #666666);
+background-image: linear-gradient(360deg, #c9c8c8, #666666);
     padding: 50px 0;
+    
+    
 }
 
 .cf {
@@ -25,7 +27,7 @@ background-image: linear-gradient(360deg, #000000, #666666);
 .fc {
     width: 100%;
     padding: 0 15px;
-    margin-bottom: 30px;
+    margin-right: 100px;
 }
 
 .fc h4 {
@@ -118,3 +120,6 @@ form [type="submit"] {
   padding: 20px;
 }
 
+.code{
+    margin-right: 100px;
+}
