@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+footer {
+background-image: linear-gradient(360deg, #000000, #666666);
+    padding: 50px 0;
+}
+
+.cf {
+    max-width: 1400px;
+    padding: 0 4%;
+    margin: auto;
+}
+
+.rf {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.fc {
+    width: 100%;
+    padding: 0 15px;
+    margin-bottom: 30px;
+}
+
+.fc h4 {
+    font-size: 22px;
+    color: white;
+    margin-bottom: 20px;
+    font-weight: 500;
+    position: relative;
+    text-transform: uppercase;
+}
+
+.fc ul {
+    list-style: none;
+}
+
+.fc ul li {
+    margin: 10px 0;
+}
+
+.fc ul li a {
+    font-size: 16px;
+    text-transform: capitalize;
+    color: white;
+    text-decoration: none;
+    font-weight: 300;
+    display: block;
+    transition: all 0.3s ease;
+}
+
+.fc ul li a:hover {
+    color: #cecdcd;
+    padding-left: 10px;
+}
+
+.fc .form-sub input,
+.fc .form-sub button,
+form input,
+form [type="submit"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 15px;
+    outline: none;
+    color: white;
+    background-color: rgb(23, 23, 54);
+    border-radius: 50px;
+}
+
+.fc .form-sub input::placeholder {
+    color: white;
+}
+
+.fc .form-sub button,
+form [type="submit"] {
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+    color: rgb(23, 23, 54);
+    border-radius: 3px;
+    font-weight: bold;
+    background-color: white;
+}
+
+.fc img{
+  align-items:center;
+  margin-right:100px;
+}
+
+/* Media Queries */
+
+@media (min-width: 768px) {
+    .fc {
+        width: 48%;
+    }
+}
+
+@media (min-width: 1024px) {
+    .fc {
+        width: 23%;
+    }
+}
+
+.botao{
+  border-radius: 50px ;
+  margin-left:100px;
+  margin-top:20px;
+  background-color:#176fff ;
+  color: white;
+  padding: 20px;
+}
+
